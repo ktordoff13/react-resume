@@ -4,7 +4,7 @@ import {
   Skills,
   CardDeal,
   Experience,
-  Clients,
+  Tech,
   CTA,
   Stats,
   Footer,
@@ -27,12 +27,12 @@ const App = () => (
     </div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
+        {/* <Stats /> */}
         <Experience />
-        <Skills />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
+        {/* <Skills /> */}
+        {/* <CardDeal /> */}
+        {/* <Testimonials /> */}
+        <Tech />
         <CTA />
         <Footer />
       </div>

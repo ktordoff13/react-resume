@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Skills from "./Skills";
 import CardDeal from "./CardDeal";
 import Experience from "./Experience";
-import Clients from "./Clients";
+import Tech from "./Tech";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
@@ -14,7 +14,7 @@ export {
   Skills,
   CardDeal,
   Experience,
-  Clients,
+  Tech,
   CTA,
   Stats,
   Footer,

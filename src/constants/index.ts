@@ -3,10 +3,19 @@ import {
   people02,
   people03,
   linkedin,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
+  ngrx,
+  angular,
+  atlassian,
+  css,
+  git,
+  gitlab,
+  html,
+  javascript,
+  jest,
+  nx,
+  scss,
+  typescript,
+  vscode,
   send,
   shield,
   star,
@@ -22,36 +31,58 @@ export const navLinks = [
     title: "Experience",
   },
   {
-    id: "skills",
-    title: "Skills",
+    id: "tech",
+    title: "Tech",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "contact",
+    title: "Contact Me",
   },
 ];
 
-export const features = [
+export const experiences = [
   {
-    id: "feature-1",
+    id: "experiences-1",
     icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Senior Software Engineer - American Family Insurance",
+    contentList: [
+      "Completely overhauled Cypress test automation framework within a NX monorepo",
+      "Integrated Cucumber, Gherkin and GitLab CICD into monorepo",
+      "Developed Angular components using NGRX and RXJS for state management with TypeScript",
+      "Resolved production and non production defects",
+      "Learned Angular best practices to be efficient and produce high quality code",
+      "Integrated unit testing and linting into the CICD process",
+      "Suggested many time saving development processes within development, testing and backlog management that have been implemented and highly valued by the team",
+      "Involved in all aspects of web development front end and back end plus Node utilities and AWS infrastructure",
+      "Successfully migrated an application with millions of users to AWS using CDK within a monorepo",
+      "Mentored several team members which I enjoy doing",
+      "Develop and supported many APIs built with NestJS",
+      "Eager to learn new technologies and implement intriguing features",
+    ],
   },
   {
-    id: "feature-2",
+    id: "experiences-2",
     icon: shield,
     title: "100% Secured",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
-    id: "feature-3",
+    id: "experiences-3",
     icon: send,
     title: "Balance Transfer",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
+export const features = [
+  {
+    id: "features-1",
+    icon: star,
+    title: "Senior Software Engineer - American Family Insurance",
+    contentList:
+      "Completely overhauled Cypress test automation framework within a NX monorepo",
   },
 ];
 
@@ -117,7 +148,6 @@ export const footerLinks = [
         name: "Help Center",
         link: "https://www.hoobank.com/help-center/",
       },
-     
     ],
   },
   {
@@ -126,7 +156,7 @@ export const footerLinks = [
       {
         name: "Our Partner",
         link: "https://www.hoobank.com/our-partner/",
-      }
+      },
     ],
   },
 ];
@@ -139,21 +169,57 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const skills = [
   {
-    id: "client-1",
-    logo: airbnb,
+    id: "skill-1",
+    logo: ngrx,
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: "skill-2",
+    logo: angular,
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: "skill-3",
+    logo: atlassian,
   },
   {
-    id: "client-4",
-    logo: dropbox,
+    id: "skill-4",
+    logo: css,
+  },
+  {
+    id: "skill-5",
+    logo: git,
+  },
+  {
+    id: "skill-6",
+    logo: gitlab,
+  },
+  {
+    id: "skill-7",
+    logo: html,
+  },
+  {
+    id: "skill-8",
+    logo: javascript,
+  },
+  {
+    id: "skill-9",
+    logo: typescript,
+  },
+  {
+    id: "skill-10",
+    logo: jest,
+  },
+  {
+    id: "skill-11",
+    logo: nx,
+  },
+  {
+    id: "skill-12",
+    logo: scss,
+  },
+  {
+    id: "skill-13",
+    logo: vscode,
   },
 ];
