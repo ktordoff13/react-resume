@@ -25,6 +25,42 @@ const ExperienceCard = ({ icon, title, content, index }: ExperienceCard) => (
         {title}
       </h4>
       <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
+        <ul>
+          <li>
+            - Completely overhauled Cypress test automation framework within a
+            NX monorepo
+          </li>
+          <li>- Integrated Cucumber, Gherkin and GitLab CICD into monorepo </li>
+          <li>
+            - Developed Angular components using NGRX and RXJS for state
+            management with TypeScript
+          </li>
+          <li>- Resolved production and non production defects</li>
+
+          <li>
+            - Learned Angular best practices to be efficient and produce high
+            quality code
+          </li>
+          <li>- Integrated unit testing and linting into the CICD process </li>
+          <li>
+            - Suggested many time saving development processes within
+            development, testing and backlog management that have been
+            implemented and highly valued by the team{" "}
+          </li>
+          <li>
+            - Involved in all aspects of web development front end and back end
+            plus Node utilities and AWS infrastructure
+          </li>
+          <li>
+            - Successfully migrated an application with millions of users to AWS
+            using CDK within a monorepo{" "}
+          </li>
+          <li>- Mentored several team members which I enjoy doing</li>
+          <li>- Develop and supported many APIs built with NestJS </li>
+          <li>
+            - Eager to learn new technologies and implement intriguing features
+          </li>
+        </ul>
         {content}
       </p>
     </div>
