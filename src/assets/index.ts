@@ -28,11 +28,13 @@ import jest from "./jest.png";
 import nx from "./nx.png";
 import scss from "./scss.png";
 import typescript from "./typescript.png";
+import react from "./react.png";
 import vscode from "./vscode.png";
 import amazoneclone from "./amazonclone.png";
 import facebookmessenger from "./facebookmessenger.png";
 
 export {
+  react,
   facebookmessenger,
   amazoneclone,
   vscode,

@@ -18,6 +18,7 @@ import {
   amazoneclone,
   facebookmessenger,
   star,
+  react,
 } from "../assets";
 
 export const navLinks = [
@@ -29,6 +30,7 @@ export const navLinks = [
     id: "experience",
     title: "Experience",
   },
+  { id: "projects", title: "Personal Projects" },
   {
     id: "tech",
     title: "Tech",
@@ -222,5 +224,9 @@ export const skills = [
   {
     id: "skill-13",
     logo: vscode,
+  },
+  {
+    ig: "skill-14",
+    logo: react,
   },
 ];
