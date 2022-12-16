@@ -6,9 +6,11 @@ const CTA = () => (
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className="flex-1 flex flex-col">
-      <h2 className={styles.heading2}>Contact me</h2>
+      <h2 className={styles.heading2}>
+        Ask me about any of the technoligies above
+      </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Interested in my experience or skillset please feel free to contact me.
+        Interested in my experience and skillset please feel free to contact me.
       </p>
     </div>
 

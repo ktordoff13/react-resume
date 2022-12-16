@@ -7,8 +7,6 @@ import shield from "./Shield.svg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import google from "./google.svg";
-import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
@@ -31,8 +29,12 @@ import nx from "./nx.png";
 import scss from "./scss.png";
 import typescript from "./typescript.png";
 import vscode from "./vscode.png";
+import amazoneclone from "./amazonclone.png";
+import facebookmessenger from "./facebookmessenger.png";
 
 export {
+  facebookmessenger,
+  amazoneclone,
   vscode,
   typescript,
   scss,
@@ -53,8 +55,6 @@ export {
   star,
   menu,
   close,
-  google,
-  apple,
   arrowUp,
   discount,
   facebook,

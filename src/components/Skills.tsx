@@ -1,4 +1,4 @@
-import { apple, bill, google } from "../assets";
+import { bill } from "../assets";
 import styles, { layout } from "../style";
 const Skills = () => (
   <section id="skills" className={layout.sectionReverse}>
@@ -20,18 +20,7 @@ const Skills = () => (
         Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
         neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
       </p>
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img
-          src={apple}
-          alt="app_store"
-          className="w-[128px] h-[42.05px] object-contain mr-5 cursor-pointer"
-        />
-        <img
-          src={google}
-          alt="google_play"
-          className="w-[144px] h-[43.08px] object-contain cursor-pointer"
-        />
-      </div>
+      <div className="flex flex-row flex-wrap sm:mt-10 mt-6"></div>
     </div>
   </section>
 );

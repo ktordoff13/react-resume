@@ -6,7 +6,7 @@ import Tech from "./Tech";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
+import Projects from "./Projects";
 import Hero from "./Hero";
 
 export {
@@ -18,6 +18,6 @@ export {
   CTA,
   Stats,
   Footer,
-  Testimonials,
+  Projects,
   Hero,
 };

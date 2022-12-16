@@ -1,18 +1,21 @@
-import { features } from "../constants";
+import { experiences } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
-
 interface ExperienceCard {
   icon: string;
   title: string;
-  content: string;
+  contentList: string[];
   index: number;
 }
 
-const ExperienceCard = ({ icon, title, content, index }: ExperienceCard) => (
+const ExperienceCard = ({
+  icon,
+  title,
+  contentList,
+  index,
+}: ExperienceCard) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
-      index !== features.length - 1 ? "mb-6" : "mb-0"
+      index !== experiences.length - 1 ? "mb-6" : "mb-0"
     } feature-card`}
   >
     <div
@@ -24,55 +27,22 @@ const ExperienceCard = ({ icon, title, content, index }: ExperienceCard) => (
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
-        <ul>
-          <li>
-            - Completely overhauled Cypress test automation framework within a
-            NX monorepo
-          </li>
-          <li>- Integrated Cucumber, Gherkin and GitLab CICD into monorepo </li>
-          <li>
-            - Developed Angular components using NGRX and RXJS for state
-            management with TypeScript
-          </li>
-          <li>- Resolved production and non production defects</li>
-
-          <li>
-            - Learned Angular best practices to be efficient and produce high
-            quality code
-          </li>
-          <li>- Integrated unit testing and linting into the CICD process </li>
-          <li>
-            - Suggested many time saving development processes within
-            development, testing and backlog management that have been
-            implemented and highly valued by the team{" "}
-          </li>
-          <li>
-            - Involved in all aspects of web development front end and back end
-            plus Node utilities and AWS infrastructure
-          </li>
-          <li>
-            - Successfully migrated an application with millions of users to AWS
-            using CDK within a monorepo{" "}
-          </li>
-          <li>- Mentored several team members which I enjoy doing</li>
-          <li>- Develop and supported many APIs built with NestJS </li>
-          <li>
-            - Eager to learn new technologies and implement intriguing features
-          </li>
-        </ul>
-        {content}
-      </p>
+      <div className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-2">
+        {contentList.map((content, index2) => (
+          <li key={index2}>{content}</li>
+        ))}
+      </div>
     </div>
   </div>
 );
 
 const Experience = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="experience" className={layout.section}>
       <div>
         <h2 className={styles.heading2}>
-          Experience <br className="sm:block hidden" /> TODO
+          Work
+          <br className="sm:block hidden" /> Experience
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           With the right credit card, you can improve your financial life by
@@ -82,8 +52,8 @@ const Experience = () => {
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
-        {features.map((feature, index) => (
-          <ExperienceCard key={feature.id} {...feature} index={index} />
+        {experiences.map((experience, index) => (
+          <ExperienceCard key={experience.id} {...experience} index={index} />
         ))}
       </div>
     </section>
