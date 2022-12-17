@@ -20,7 +20,7 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Hi, I'm Jakub Tordoff. I am a full stack web developer specilizing in
           JS/TS. My passion is to create intriguing, scalable and well organized
-          serivces and web sites complete with sufficient testing.
+          services and web sites complete with sufficient testing.
         </p>
       </div>
 

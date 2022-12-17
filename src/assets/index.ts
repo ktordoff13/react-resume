@@ -1,7 +1,6 @@
 import bill from "./bill.png";
 import card from "./card.png";
 import logo from "./logo.svg";
-import quotes from "./quotes.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -53,7 +52,6 @@ export {
   bill,
   card,
   logo,
-  quotes,
   send,
   shield,
   star,
