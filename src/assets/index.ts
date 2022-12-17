@@ -8,13 +8,7 @@ import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
-import discount from "./Discount.svg";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
 import headshot from "./headshot.png";
 import ngrx from "./ngrx.png";
 import angular from "./angular.png";
@@ -66,13 +60,7 @@ export {
   menu,
   close,
   arrowUp,
-  discount,
-  facebook,
-  instagram,
   linkedin,
-  people01,
-  people02,
-  people03,
   headshot,
   ngrx,
   angular,

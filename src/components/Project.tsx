@@ -10,7 +10,7 @@ const Project = ({ content, name, img }: Project) => (
     </h4>
     <img
       src={img}
-      alt="double_quotes"
+      alt="project"
       className="w-[300px] h-[300px] object-contain"
     />
     <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">

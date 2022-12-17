@@ -107,7 +107,7 @@
   }
 }
 
-.feature-card:hover {
+.feature-card {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
@@ -120,7 +120,7 @@
   background: transparent;
 }
 
-.feedback-card:hover {
+.feedback-card {
   background: var(--black-gradient);
 }
 
