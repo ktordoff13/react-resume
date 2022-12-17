@@ -28,8 +28,8 @@ const ExperienceCard = ({
         {title}
       </h4>
       <div className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-2">
-        {contentList.map((content, index2) => (
-          <li key={index2}>{content}</li>
+        {contentList.map((content) => (
+          <li key={content}>{content}</li>
         ))}
       </div>
     </div>
