@@ -30,7 +30,7 @@ const Hero = () => {
         <img
           src={headshot}
           alt="headshot"
-          className="object-scale-down w-[20%] h-[20%] md:w-[70%] md:h-[70%]	relative z-[5]"
+          className="object-scale-down w-[40%] h-[40%] md:w-[70%] md:h-[70%] ss:w-[50%] ss:h-[50%] relative z-[5]"
         />
 
         {/* gradient start */}

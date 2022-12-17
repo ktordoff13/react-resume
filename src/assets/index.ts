@@ -32,8 +32,16 @@ import react from "./react.png";
 import vscode from "./vscode.png";
 import amazoneclone from "./amazonclone.png";
 import facebookmessenger from "./facebookmessenger.png";
+import aws from "./aws.png";
+import cypress from "./cypress.png";
+import node from "./node.png";
+import resumesite from "./resumesite.png";
 
 export {
+  resumesite,
+  node,
+  cypress,
+  aws,
   react,
   facebookmessenger,
   amazoneclone,

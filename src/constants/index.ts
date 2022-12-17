@@ -1,6 +1,4 @@
 import {
-  people02,
-  people03,
   linkedin,
   ngrx,
   angular,
@@ -19,6 +17,10 @@ import {
   facebookmessenger,
   star,
   react,
+  aws,
+  cypress,
+  node,
+  resumesite,
 } from "../assets";
 
 export const navLinks = [
@@ -94,25 +96,21 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    content: "Learned styling with react using Amazon as an example",
     name: "Amazon Clone",
     img: amazoneclone,
   },
   {
     id: "project-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    content: "Learned about creating a real time chat using Firebase",
     name: "Facebook Messenger Clone",
     img: facebookmessenger,
   },
   {
     id: "project-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+    content: "Creted this site to showcase my talents",
     name: "This Resume Site",
-    title: "Founder & Leader",
-    img: people03,
+    img: resumesite,
   },
 ];
 
@@ -174,59 +172,71 @@ export const socialMedia = [
 
 export const skills = [
   {
-    id: "skill-1",
+    id: "ngrx",
     logo: ngrx,
   },
   {
-    id: "skill-2",
+    id: "angular",
     logo: angular,
   },
   {
-    id: "skill-3",
+    id: "atlassian",
     logo: atlassian,
   },
   {
-    id: "skill-4",
+    id: "css",
     logo: css,
   },
   {
-    id: "skill-5",
+    id: "git",
     logo: git,
   },
   {
-    id: "skill-6",
+    id: "gitlab",
     logo: gitlab,
   },
   {
-    id: "skill-7",
+    id: "html",
     logo: html,
   },
   {
-    id: "skill-8",
+    id: "javascript",
     logo: javascript,
   },
   {
-    id: "skill-9",
+    id: "typescript",
     logo: typescript,
   },
   {
-    id: "skill-10",
+    id: "jest",
     logo: jest,
   },
   {
-    id: "skill-11",
+    id: "nx",
     logo: nx,
   },
   {
-    id: "skill-12",
+    id: "scss",
     logo: scss,
   },
   {
-    id: "skill-13",
+    id: "vscode",
     logo: vscode,
   },
   {
-    ig: "skill-14",
+    id: "react",
     logo: react,
+  },
+  {
+    id: "aws",
+    logo: aws,
+  },
+  {
+    id: "cypress",
+    logo: cypress,
+  },
+  {
+    id: "node",
+    logo: node,
   },
 ];

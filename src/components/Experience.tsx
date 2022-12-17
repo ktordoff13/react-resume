@@ -44,17 +44,13 @@ const Experience = () => {
           Work
           <br className="sm:block hidden" /> Experience
         </h2>
-        {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
-        </p> */}
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
         {experiences.map((experience, index) => (
           <ExperienceCard key={experience.id} {...experience} index={index} />
         ))}
+        <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
       </div>
     </section>
   );
