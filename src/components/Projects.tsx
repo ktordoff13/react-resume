@@ -8,7 +8,9 @@ const Projects = () => (
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
   >
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-5 mb-6 relative z-[1]">
-      <h1 className={styles.heading2}>Personal Projects</h1>
+      <h1 className={styles.heading2}>
+        Personal <span className="text-gradient">Projects</span>{" "}
+      </h1>
     </div>
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
       {projects.map((card) => (

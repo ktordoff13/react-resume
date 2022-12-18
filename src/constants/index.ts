@@ -21,6 +21,7 @@ import {
   cypress,
   node,
   resumesite,
+  nestjs,
 } from "../assets";
 
 export const navLinks = [
@@ -156,6 +157,7 @@ export const socialMedia = [
 ];
 
 export const skills = [
+  { id: "nestjs", logo: nestjs },
   {
     id: "ngrx",
     logo: ngrx,

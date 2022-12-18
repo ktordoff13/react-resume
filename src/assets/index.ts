@@ -29,8 +29,10 @@ import aws from "./aws.png";
 import cypress from "./cypress.png";
 import node from "./node.png";
 import resumesite from "./resumesite.png";
+import nestjs from "./nestjs.svg";
 
 export {
+  nestjs,
   resumesite,
   node,
   cypress,

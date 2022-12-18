@@ -41,8 +41,8 @@ const Experience = () => {
     <section id="experience" className={layout.section}>
       <div>
         <h2 className={styles.heading2}>
-          Work
-          <br className="sm:block hidden" /> Experience
+          {" "}
+          <span className="text-gradient">Work</span> Experience
         </h2>
       </div>
 
