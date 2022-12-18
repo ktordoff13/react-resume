@@ -12,15 +12,13 @@ const Hero = () => {
             Full Stack <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Web Developer</span>{" "}
           </h1>
-          {/* <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
-          </div> */}
         </div>
-
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Hi, I'm Jakub Tordoff. I am a full stack web developer specilizing in
-          JS/TS. My passion is to create intriguing, scalable and well organized
-          services and web sites complete with sufficient testing.
+          JS/TS. I enjoy working with many different JS frameworks and learning
+          new ones in my free time. My passion is to create intriguing, scalable
+          and well organized services and web sites complete with sufficient
+          testing.
         </p>
       </div>
 
@@ -30,7 +28,7 @@ const Hero = () => {
         <img
           src={headshot}
           alt="headshot"
-          className="object-scale-down w-[40%] h-[40%] md:w-[70%] md:h-[70%] ss:w-[50%] ss:h-[50%] relative z-[5]"
+          className="object-scale-down rounded-full w-[40%] h-[40%] md:w-[70%] md:h-[70%] ss:w-[50%] ss:h-[50%] relative z-[5]"
         />
 
         {/* gradient start */}

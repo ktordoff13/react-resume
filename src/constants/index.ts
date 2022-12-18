@@ -97,38 +97,23 @@ export const projects = [
   {
     id: "project-1",
     content: "Learned styling with react using Amazon as an example",
+    repoUrl: "https://gitlab.com/ktordoff13/amazon-clone",
     name: "Amazon Clone",
     img: amazoneclone,
   },
   {
     id: "project-2",
     content: "Learned about creating a real time chat using Firebase",
+    repoUrl: "https://gitlab.com/ktordoff13/facebook-messenger-clone",
     name: "Facebook Messenger Clone",
     img: facebookmessenger,
   },
   {
     id: "project-3",
     content: "Creted this site to showcase my talents",
+    repoUrl: "https://gitlab.com/ktordoff13/resume",
     name: "This Resume Site",
     img: resumesite,
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
   },
 ];
 

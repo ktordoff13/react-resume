@@ -3,7 +3,7 @@ interface Styles {
   styles?: string;
 }
 
-const Button = ({ styles, email }: Styles) => {
+const MailToButton = ({ styles, email }: Styles) => {
   return (
     <button
       onClick={() => window.open(`mailto:${email}`)}
@@ -15,4 +15,4 @@ const Button = ({ styles, email }: Styles) => {
   );
 };
 
-export default Button;
+export default MailToButton;

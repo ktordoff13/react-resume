@@ -1,12 +1,9 @@
 import styles from "./style";
 import {
   Navbar,
-  Skills,
-  CardDeal,
   Experience,
   Tech,
   CTA,
-  Stats,
   Footer,
   Projects,
   Hero,
@@ -27,10 +24,8 @@ const App = () => (
     </div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Stats /> */}
         <Experience />
         {/* <Skills /> */}
-        {/* <CardDeal /> */}
         <Projects />
         <Tech />
         <CTA />

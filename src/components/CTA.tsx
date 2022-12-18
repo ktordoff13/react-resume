@@ -1,5 +1,6 @@
 import styles from "../style";
-import Button from "./Button";
+import MailToButton from "./Button";
+
 const CTA = () => (
   <section
     id="contact"
@@ -16,7 +17,7 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button email="kubator21@protonmail.com" />
+      <MailToButton email="kubator21@protonmail.com" />
     </div>
   </section>
 );
