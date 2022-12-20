@@ -7,7 +7,6 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-        {/* <img src={discount} alt="discount" className="w-[32px] h-[32px]" /> */}
         <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[40px] text-white ss:leading-[50px] leading-[50px]">
           Jakub <span className="text-gradient">Tordoff</span>
         </h1>
@@ -16,7 +15,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-normal cursor-pointer text-[16px] ml-3 ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } text-white`}
           >

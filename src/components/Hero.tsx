@@ -14,11 +14,17 @@ const Hero = () => {
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Hi, I'm Jakub Tordoff. I am a full stack web developer specilizing in
-          JS/TS. I enjoy working with many different JS frameworks and learning
-          new ones in my free time. My passion is to create intriguing, scalable
-          and well organized services and web sites complete with sufficient
-          testing.
+          Hi, I'm Jakub Tordoff. Experienced software developer well versed in
+          many platforms and tools delivering quality software driven by
+          business requirements. I am comfortable discussing requirements and
+          then heads-down coding during the sprint to deliver them. A lively
+          debater and a passionate collaborator, I understand that the team
+          succeeds together. I enjoy tackling hard problems and designing
+          solutions with the big picture in mind. I love experimenting with new
+          frameworks, learning new patterns and automating the tedious tasks. I
+          have a talent for leading technical projects and driving initiatives.
+          My curiosity fuels my hunger for continually learning and improving my
+          skill set.
         </p>
       </div>
 
