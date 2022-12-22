@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="text-gradient">Web Developer</span>{" "}
           </h1>
         </div>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[750px] mt-5`}>
           Hi, I'm Jakub Tordoff. Experienced software developer well versed in
           many platforms and tools delivering quality software driven by
           business requirements. I am comfortable discussing requirements and

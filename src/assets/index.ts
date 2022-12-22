@@ -30,8 +30,10 @@ import cypress from "./cypress.png";
 import node from "./node.png";
 import resumesite from "./resumesite.png";
 import nestjs from "./nestjs.svg";
+import resume from "./Resume_JT.pdf";
 
 export {
+  resume,
   nestjs,
   resumesite,
   node,

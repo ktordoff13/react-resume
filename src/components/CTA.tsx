@@ -1,5 +1,6 @@
 import styles from "../style";
-import MailToButton from "./Button";
+import { MailToButton } from "./Button";
+import { DownloadResumeButton } from "./Button";
 
 const CTA = () => (
   <section
@@ -18,6 +19,9 @@ const CTA = () => (
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
       <MailToButton email="kubator21@protonmail.com" />
+    </div>
+    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+      <DownloadResumeButton />
     </div>
   </section>
 );
