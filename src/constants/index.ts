@@ -134,73 +134,90 @@ export const socialMedia = [
 ];
 
 export const skills = [
-  { id: "nestjs", logo: nestjs },
+  { id: "nestjs", logo: nestjs, tooltip: "NestJS" },
   {
     id: "ngrx",
     logo: ngrx,
+    tooltip: "NGRX",
   },
   {
     id: "angular",
     logo: angular,
+    tooltip: "Angular",
   },
   {
     id: "atlassian",
     logo: atlassian,
+    tooltip: "Atlassian",
   },
   {
     id: "css",
     logo: css,
+    tooltip: "CSS",
   },
   {
     id: "git",
     logo: git,
+    tooltip: "GIT",
   },
   {
     id: "gitlab",
     logo: gitlab,
+    tooltip: "GitLab",
   },
   {
     id: "html",
     logo: html,
+    tooltip: "HTML",
   },
   {
     id: "javascript",
     logo: javascript,
+    tooltip: "JavaScript",
   },
   {
     id: "typescript",
     logo: typescript,
+    tooltip: "TypeScript",
   },
   {
     id: "jest",
     logo: jest,
+    tooltip: "Jest",
   },
   {
     id: "nx",
     logo: nx,
+    tooltip: "NX",
   },
   {
     id: "scss",
     logo: scss,
+    tooltip: "SCSS",
   },
   {
     id: "vscode",
     logo: vscode,
+    tooltip: "VSCode",
   },
   {
     id: "react",
     logo: react,
+    tooltip: "React",
   },
   {
     id: "aws",
     logo: aws,
+    tooltip: "AWS",
   },
   {
     id: "cypress",
     logo: cypress,
+    tooltip: "Cypress",
   },
   {
     id: "node",
     logo: node,
+    tooltip: "Node",
   },
 ];
