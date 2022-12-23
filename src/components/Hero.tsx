@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             Full Stack <br className="sm:block hidden" />{" "}
-            <span className="text-gradient text-6xl font-bold transition duration-150 border-b-8 border-transparent hover:border-yellow-500">
+            <span className="text-gradient text-6xl font-bold transition duration-150 border-b-8 border-transparent hover:border-yellow-200">
               Web Developer
             </span>{" "}
           </h1>
