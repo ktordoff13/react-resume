@@ -15,16 +15,9 @@ const Hero = () => {
         </div>
         <p className={`${styles.paragraph} max-w-[750px] mt-5`}>
           Hi, I'm Jakub Tordoff. Experienced software developer well versed in
-          many platforms and tools delivering quality software driven by
-          business requirements. I am comfortable discussing requirements and
-          then heads-down coding during the sprint to deliver them. A lively
-          debater and a passionate collaborator, I understand that the team
-          succeeds together. I enjoy tackling hard problems and designing
-          solutions with the big picture in mind. I love experimenting with new
-          frameworks, learning new patterns and automating the tedious tasks. I
-          have a talent for leading technical projects and driving initiatives.
-          My curiosity fuels my hunger for continually learning and improving my
-          skill set.
+          many platforms and tools delivering quality software. My energy and
+          curiosity fuels my hunger to continually learn and improving my skill
+          set.
         </p>
       </div>
 
