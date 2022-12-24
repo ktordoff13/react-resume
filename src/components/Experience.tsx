@@ -19,7 +19,7 @@ const ExperienceCard = ({
     } feature-card`}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimWhite`}
     >
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
