@@ -12,8 +12,8 @@ const CTA = () => (
         Ask me about any of the technologies above
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Interested in my experience and skillset please feel free to contact me
-        at <span className="text-gradient">kubator21@protonmail.com</span>
+        Interested in my experience and skillset? Please feel free to contact
+        me. <span className="text-gradient">kubator21@protonmail.com</span>
       </p>
     </div>
 

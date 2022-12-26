@@ -3,7 +3,7 @@ import card from "./card.png";
 import logo from "./logo.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
-import star from "./Star.svg";
+import building from "./building.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
@@ -58,7 +58,7 @@ export {
   logo,
   send,
   shield,
-  star,
+  building,
   menu,
   close,
   arrowUp,

@@ -14,7 +14,7 @@ const Hero = () => {
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[750px] mt-5`}>
-          Hi, I'm Jakub Tordoff. Experienced software developer well versed in
+          Hi, I'm Jakub Tordoff, experienced software developer well versed in
           many platforms and tools delivering quality software. My energy and
           curiosity fuels my hunger to continually learn and improving my skill
           set.
